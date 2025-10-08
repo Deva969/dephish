@@ -1,0 +1,13 @@
+
+
+.dephishlogoemp{
+    left: 50px;
+    top: 35px;
+    width: 120px;
+    height: 57px;
+    position: absolute;
+    background-image: url("/assets/dephishlogoemp.png");
+    background-size: cover; 
+    background-position: center;
+}
+

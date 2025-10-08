@@ -1,0 +1,23 @@
+
+#fishinghook {
+    top : 0;
+    position: absolute;
+    right: 83px;
+    width: 2px;
+    height: 500px;
+    background-color: gray;
+    transition: height 1s cubic-bezier(.31,-0.18,.73,1.21);
+    z-index: 1000;
+  }
+  #fishcontainer {
+    position: absolute;
+    right: 0px;
+    width: 160px;
+    height: 160px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 485px;
+    transition: top 1s cubic-bezier(.31,-0.18,.73,1.21);
+    z-index: 1000;
+  }

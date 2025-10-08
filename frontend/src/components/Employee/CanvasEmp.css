@@ -1,0 +1,32 @@
+.canvas{
+    position: absolute;
+    left:250px;
+    top: 165px;
+    height : 600px;
+    width: 1100px;
+    border: solid antiquewhite 5px;
+    border-radius: 18px;
+    transition: all 0.15s linear;
+}
+
+
+.canvas.dashboard{
+    border: solid #32847E 5px;
+    background: linear-gradient(to bottom, rgba(22, 60, 57, 0.37) 19%, rgba(4, 27, 31, 0.37) 100%);
+}
+
+
+.canvas.game{
+    border: solid #0fd4aa 5px;
+    background: linear-gradient(to bottom, rgba(22, 60, 57, 0.37) 19%, rgba(4, 27, 31, 0.37) 100%);
+}
+
+.canvas.slipups{
+    border: solid #943A3A 5px;
+    background: linear-gradient(to bottom, rgba(60, 22, 28, 0.37) 19%, rgba(4, 27, 31, 0.37) 100%);
+}
+
+.canvas.quiz{
+    border: solid #947343 5px;
+    background: linear-gradient(to bottom, rgba(109, 53, 6, 0.32) 19%, rgba(4, 27, 31, 0.32) 100%);
+}

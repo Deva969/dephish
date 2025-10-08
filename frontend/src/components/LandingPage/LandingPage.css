@@ -1,0 +1,26 @@
+.kyros{
+  max-width: 40%;
+    height: auto;
+    
+ }
+
+ .looper {
+  width: 80%; 
+  height: auto; 
+  position: absolute;
+  right:10%;
+  background-size: 100% auto; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+
+
+.kyros {
+  position: absolute;
+  top: 50%; 
+  right:10%; 
+  transform: translateY(-50%); 
+  
+  width: auto; 
+  height: 700px; 
+}

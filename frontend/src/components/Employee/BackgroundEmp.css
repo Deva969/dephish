@@ -1,0 +1,38 @@
+.backgroundemp{
+    position: absolute;
+    background-image: url("/assets/EmployeeBackground.png");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover; 
+    background-position: center;
+    z-index: -50;
+}
+
+.transparency {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    transition: background-color 0.4s linear;
+    z-index: -49;
+}
+
+.transparency {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.transparency.dashboard {
+    background-color: rgba(4, 31, 25, 0.5);
+}
+
+.transparency.quiz {
+    background-image: linear-gradient(180deg, rgba(52, 26, 5, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%);
+}
+
+.transparency.slipups {
+    background-image: linear-gradient(180deg, rgba(31, 4, 4, 0.5) 0%, rgba(1, 1, 1, 0.5) 100%);
+}
+
+
+.transparency.game {
+    background-color: rgba(4, 31, 25, 0.5);
+}
