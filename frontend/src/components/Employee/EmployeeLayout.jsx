@@ -21,7 +21,7 @@ const EmployeeLayout = () => {
             <PageHeading path={currentPage}></PageHeading>
             <BackgroundEmp path={currentPage}></BackgroundEmp> 
             <NavbarEmp path={currentPage}></NavbarEmp>
-            <CanvasEmp path={currentPage}></CanvasEmp>
+            {/* <CanvasEmp path={currentPage}></CanvasEmp> */}
             <Outlet></Outlet>
         </>
     );
