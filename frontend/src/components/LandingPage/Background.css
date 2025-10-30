@@ -1,10 +1,36 @@
 .background {
+    position: fixed;
+    top: 0;
+    left: 0;
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(135deg, #0f172a, #1e3b1f);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  /* base dark gradient with a green tint to match brand */
+  background: linear-gradient(135deg, rgba(6,18,28,1) 0%, rgba(6,38,28,1) 45%, rgba(6,48,34,1) 100%);
+  z-index: -2;
+  overflow: hidden;
+  pointer-events: none; /* allow clicks to pass through to page content */
+  /* ensure subtle green cast */
+}
+
+.background::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(40% 60% at 70% 35%, rgba(15,212,170,0.06), transparent 20%),
+        radial-gradient(30% 40% at 20% 80%, rgba(10,150,110,0.03), transparent 25%);
+  pointer-events: none;
+  z-index: -1;
+  filter: blur(18px) saturate(120%);
+  }
+
+  .background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* keep a gentle darkening layer so content remains readable */
+    background: radial-gradient(circle at center, transparent 0%, rgba(8, 18, 14, 0.55) 100%);
+    z-index: -1;
   }
   

@@ -17,15 +17,15 @@ function LandingPage() {
       <Background>
         <Navbar />
         <img src={hackImage} alt="cant show hackimage" className="looper" />
-        <img src={robotImage} alt="cant show robotimage" className="kyros"/>
+        {/* <img src={robotImage} alt="cant show robotimage" className="kyros"/> */}
         
         {/* Hero Section */}
         <div className="hero-wrapper">
           <div className="hero-content-section">
             <div className="hero-badge">🛡️ ENTERPRISE SECURITY TRAINING</div>
             <h1 className="main-title">
-              Protect Your Organization from
-              <span className="gradient-text"> Phishing Attacks</span>
+              Protect Your Organization from 
+              <span className="gradient-text">  Phishing Attacks</span>
             </h1>
             <p className="main-subtitle">
               Gamified cybersecurity training platform that transforms employees into your strongest defense line
@@ -75,7 +75,7 @@ function LandingPage() {
           </div>
         </section>
 
-        {/* Footer */}
+  {/* Footer */}
         <footer className="site-footer">
           <div className="content-container">
             <div className="footer-grid">
@@ -115,7 +115,7 @@ function LandingPage() {
             </div>
           </div>
         </footer>
-      </Background>
+  </Background>
     </>
   )
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import hackImage from './../../assets/hack.png';
+import robotImage from './../../assets/robot-landing-page.png';
 import './About.css';
 
 const About = () => {
@@ -8,7 +9,7 @@ const About = () => {
       <div className="content-container">
         <div className="why-layout">
           <div className="why-image-section">
-            <img src={hackImage} alt="Cybersecurity Hero" className="why-hero-img" />
+            <img src={robotImage} alt="Cybersecurity Hero" className="why-hero-img" />
           </div>
           <div className="why-text-section">
             <h2 className="section-heading left-align">Why Dephish?</h2>

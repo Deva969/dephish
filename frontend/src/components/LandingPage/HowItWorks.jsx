@@ -45,14 +45,14 @@ const HowItWorks = () => {
             </div>
             <h4>Not falling victim to phishing messages</h4>
           </div>
-          <div className="method-box">
+          {/* <div className="method-box">
             <div className="method-icon-circle yellow-grad">
               <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
                 <path d="M13 10V3L4 14h7v7l9-11h-7z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
             </div>
             <h4>Putting safe cyberattitudes into practice</h4>
-          </div>
+          </div> */}
         </div>
         
         <div className="testimonial-box">
