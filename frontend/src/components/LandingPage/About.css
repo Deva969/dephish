@@ -1,0 +1,99 @@
+.why-dephish {
+  padding: 100px 0;
+  position: relative;
+  z-index: 10;
+}
+
+.why-layout {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
+.why-image-section {
+  flex: 1;
+}
+
+.why-hero-img {
+  width: 100%;
+  max-width: 450px;
+  animation: float 3s ease-in-out infinite;
+  filter: drop-shadow(0 20px 40px rgba(15, 212, 170, 0.3));
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+.why-text-section {
+  flex: 1;
+}
+
+.benefits-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.benefit-item {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.check-circle {
+  width: 32px;
+  height: 32px;
+  background: linear-gradient(135deg, #0fd4aa, #0a9d7f);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.benefit-item h4 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 4px;
+  font-family: 'Inter', sans-serif;
+}
+
+.benefit-item p {
+  font-size: 15px;
+  color: #b5c4d3;
+  line-height: 1.6;
+  font-family: 'Inter', sans-serif;
+}
+
+.quote-box {
+  padding: 24px;
+  background: rgba(15, 212, 170, 0.05);
+  border-left: 4px solid #0fd4aa;
+  border-radius: 8px;
+  font-size: 15px;
+  font-style: italic;
+  line-height: 1.8;
+  color: #e8f0f5;
+  font-family: 'Inter', sans-serif;
+}
+
+.quote-box cite {
+  display: block;
+  margin-top: 12px;
+  font-style: normal;
+  font-weight: 600;
+  color: #0fd4aa;
+}
+
+@media (max-width: 1024px) {
+  .why-layout {
+    flex-direction: column;
+  }
+}
